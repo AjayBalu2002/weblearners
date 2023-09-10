@@ -1,0 +1,69 @@
+.post
+{
+
+    height: 200px;
+   max-width: 500px;
+
+    min-width: 300px;
+  
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+ 
+}
+
+
+.posttotal
+{
+  
+    height: 654px;
+    background-color: #1D1A39;
+}
+
+
+.notification
+{
+width:300px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:center ;
+position: relative;
+left: 40%;
+
+}
+
+
+
+:root {
+    --color-one: #1D1A39;
+    --color-two: #451952;
+    --color-three: #662549;
+    --color-four: #AE4454;
+    --color-five: #F39F5A;
+    --color-six: #E8BCB9;
+  }
+  
+
+.postsubmit
+{
+    margin-top: 10px;
+    background-color:var(--color-five) ;
+    color: #451952;
+}
+
+.postsubmit:hover
+{
+    background-color:var(--color-two);
+    color: var(--color-six);
+}
+
+.inputcontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 100px;
+}

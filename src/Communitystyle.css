@@ -1,0 +1,141 @@
+.eachpost
+{
+    background-color: var(--color-six) ;
+    color:var(--color-three);
+    margin-top: 40px;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    max-width: fit-content;
+    min-width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    z-index: 1;
+
+}
+
+
+.allposts
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.commusername
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    z-index: 2;
+}
+
+
+.commedit
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    z-index: 2;
+    height: 30px;
+}
+
+
+.commdelete
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    z-index: 2;
+    height: 30px;
+}
+
+
+.comments
+{
+    height: 30px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 350px;
+    cursor:context-menu;
+    z-index: 2;
+}
+
+.commentbuttons
+{
+    height: 30px;
+    margin-top: 10px;
+    position: absolute;
+    left: 850px;
+    
+}
+
+
+.commentbuttons1
+{
+   
+    height: 30px;
+    margin-top: 10px;
+    position: absolute;
+    left: 750px;
+}
+
+
+.commentsfunction
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    max-width: 500px;
+}
+
+.commentinput
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.totalcommunity
+{
+
+
+min-height: 100hv;
+height: 700px;
+margin: 0;
+padding: 0;
+
+}
+
+
+
+.commentatorid
+{
+    position: absolute;
+    margin-left: -300px;
+    background-color: var(--color-five);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.commentquotation
+{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    max-width: 200px;
+    
+    
+    
+}
+
+#coombtn{
+background-color: var(--color-five);
+
+
+}
