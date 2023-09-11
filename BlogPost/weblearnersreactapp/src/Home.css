@@ -1,0 +1,94 @@
+
+
+:root {
+  --color-one: #1D1A39;
+  --color-two: #451952;
+  --color-three: #662549;
+  --color-four: #AE4454;
+  --color-five: #F39F5A;
+  --color-six: #E8BCB9;
+}
+
+/* body{
+  background-color: #E8BCB9;
+}
+ */
+
+
+.homecontroller{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--color-five);
+    
+    
+    padding-top: 15px;
+    padding-bottom: 21px;
+
+   
+
+}
+
+
+.totalparent
+{
+  overflow-x: hidden;
+}
+
+
+
+
+
+.homecontrollercenterline
+{
+    height: 53px;
+    position: absolute;
+    top: 0px;
+    border: 1px solid black;
+}
+
+.homecontrollerpost{
+  width: 50%;
+  margin-top: -15px;
+  padding-top: 15px;
+ height: 20px;
+ padding-bottom: 23px;
+  margin-bottom:-20px ;
+  position: relative;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+ 
+}
+
+
+.homecontrollercommunity
+{
+  width: 50%;
+  margin-top: -15px;
+  padding-top: 15px;
+ height: 20px;
+ padding-bottom: 23px;
+  margin-bottom:-25px ;
+  position: relative;
+  left: 0%;
+}
+
+
+.homecontrollerpost:hover,
+.homecontrollerpost:focus {
+  background-color: var(--color-two); 
+  color: var(--color-six);
+
+}
+
+.homecontrollercommunity:hover,
+.homecontrollercommunity:focus {
+  background-color: var(--color-two); 
+  color: var(--color-six);
+}
+
+
+.homeomponents
+{
+height: 500px;
+}

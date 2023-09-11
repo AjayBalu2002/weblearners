@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/weblearners/static/css/main.ccc0aeb5.css",
+    "main.js": "/weblearners/static/js/main.8cc26c28.js",
+    "static/js/787.471c6ef9.chunk.js": "/weblearners/static/js/787.471c6ef9.chunk.js",
+    "index.html": "/weblearners/index.html",
+    "main.ccc0aeb5.css.map": "/weblearners/static/css/main.ccc0aeb5.css.map",
+    "main.8cc26c28.js.map": "/weblearners/static/js/main.8cc26c28.js.map",
+    "787.471c6ef9.chunk.js.map": "/weblearners/static/js/787.471c6ef9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ccc0aeb5.css",
+    "static/js/main.8cc26c28.js"
+  ]
+}
