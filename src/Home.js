@@ -8,7 +8,7 @@ import Welcome from './Welcome';
 export default function Home() {
   const nav = useNavigate()
   return (
-    <div>
+    <div className='totalparent' >
       <div className='homecontroller'>
       <div className='homecontrollercommunity' onClick={()=>nav('post')}>post
         </div>

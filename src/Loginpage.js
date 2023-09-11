@@ -72,7 +72,7 @@ function handlelogin() {
       
       localStorage.setItem('userId', res.data.id);
       localStorage.setItem('userName', res.data.name);
-      nav('/home');
+      nav('/weblearners/home');
     })
     .catch(error => {
       console.log(error);
@@ -92,7 +92,7 @@ function handlelogin() {
     <Input  className='LoginInput' onChange={(e)=>handleuserdetailspassword(e)} ></Input>
 
     <Button style={{backgroundColor :'orange'}}   onClick={()=>handlelogin()}  >Login</Button>
- <label> don't have an account?</label> <a  style={{color:'black'}} onClick={()=>nav('/register')} >register now</a> 
+ <label> don't have an account?</label> <a  style={{color:'black'}} onClick={()=>nav('/weblearners/home/*')} >register now</a> 
  
     </div>
 
